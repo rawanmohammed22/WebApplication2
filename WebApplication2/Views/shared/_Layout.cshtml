@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿
+
+
+
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -13,12 +18,24 @@
 
         <center>
 
-            <a class=" btn  btn-danger" href="/Home/index">Home</a>
-            <a class="  btn   btn-primary" href="/Home/Contactus">Contact us</a>
-            <a class=" btn btn-info" href="/Home/Privacy">Privacy</a>
-            <a class="btn btn-secondary" href="/Home/About">About</a>
-            <a class="btn btn-info" href="/Acount/Login">Login</a>
-            <a class="btn btn-secondary" href="/Home/Register">Register</a>
+
+@* 
+            @Html.ActionLink("Home",
+                     "Index", "Home", null, new {@class= "btn btn-danger"
+    }) *@
+
+        <!-- #region name --> 
+
+            
+
+<!-- #endregion -->
+
+            <a class="  btn   btn-primary" asp-controller="Home" asp-action="Index" >Home</a>
+            <a class="  btn   btn-primary" asp-controller="Home" asp-action="Contactus">Contact</a>
+            <a class=" btn btn-info" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <a class="btn btn-secondary" asp-controller="Home" asp-action="About">About</a>
+            <a class="btn btn-info" asp-controller="Acount" asp-action="Login">Login</a>
+            <a class="btn btn-secondary" asp-controller="Acount" asp-action="Register">Register</a>
 
 
 

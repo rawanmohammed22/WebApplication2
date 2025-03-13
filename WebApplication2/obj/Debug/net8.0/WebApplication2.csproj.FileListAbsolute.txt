@@ -228,3 +228,4 @@ C:\Users\dell\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebA
 C:\Users\dell\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebAppli.0DB3FC1A.Up2Date
 C:\Users\dell\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.RazorAssemblyInfo.cache
 C:\Users\dell\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.RazorAssemblyInfo.cs
+C:\Users\dell\source\repos\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.sourcelink.json

@@ -42,17 +42,17 @@ namespace WebApplication2
 
             app.UseRouting();
 
-                app.MapGet("/", async context =>
-                {
+                //app.MapGet("/", async context =>
+                //{
 
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                //    await context.Response.WriteAsync("Hello World!");
+                //});
 
-                app.MapGet("/RAWAN", async context =>
-                {
-                    await context.Response.WriteAsync("Hello rawan!");
+                //app.MapGet("/RAWAN", async context =>
+                //{
+                //    await context.Response.WriteAsync("Hello rawan!"); 
 
-                });
+                //});
 
             app.MapControllers();
 
